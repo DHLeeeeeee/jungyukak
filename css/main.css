@@ -1,0 +1,53 @@
+/* 전역 속성 */
+
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 헤더 */
+
+.header {
+  background: #000;
+  padding: 20px 0;
+}
+
+.header a {
+  display: inline-block;
+  color: #fff;
+}
+
+.header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.header .left .logo img {
+  width: 130px;
+}
+
+.header .left .gnb ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header .right {
+  font-size: 13px;
+}
+
+.header .right ul {
+  display: flex;
+  gap: 10px;
+}
+
+.header .right ul li:nth-child(2) {
+  margin-right: 20px;
+}
